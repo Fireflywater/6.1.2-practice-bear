@@ -1,4 +1,4 @@
-import { HungryBear } from "./../js/hungrybear.js";
+import { HungryBear } from "./../src/hungrybear.js";
 
 describe("HungryBear", function() {
 	let fuzzy;
@@ -59,6 +59,7 @@ describe("HungryBear", function() {
 		fuzzy.energyLevel = 100;
 		fuzzy.patienceLevel = 100;
 		fuzzy.give("debug|debug|40|40|40");
+		jasmine.clock().tick(1001);
 		expect(fuzzy.foodLevel).toEqual(100);
 		expect(fuzzy.energyLevel).toEqual(100);
 		expect(fuzzy.patienceLevel).toEqual(100);
