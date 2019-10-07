@@ -4,8 +4,6 @@ export class HungryBear {
 		this.foodLevel = 10; // goes down over time
 		this.energyLevel = 10; // goes donw over time, faster at 0 food
 		this.patienceLevel = 10; // goes down over time, faster at 0 energy, too low = eaten
-		this.difficulty = 1;
-		this.eatenPlayer = false;
 		this.itemDB = [
 			//"NAME|ADJECTIVE|+/-FOOD|+/-EN|+/-PAT",
 			"Blueberries|ate|5|1|1",

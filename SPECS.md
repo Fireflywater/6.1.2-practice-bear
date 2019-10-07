@@ -1,13 +1,19 @@
 ## Specs/Behaviors 
-object AstroCalc(int) 
-	Contains 3 arrays, one for planet names, one for conversions, one for output,
-	Also contains 1 int for input and 1 string for a summary.
-	User creates this object with earth years in mind.
-	Also instantly calls AstroCalc.convert() when created.
+object `HungryBear(name)`
+	Oh he's a big bear, he's a big strong bear! 
 	
-function AstroCalc.convert()
-	Takes AstroCalc.sourceAge and uses it to populate AstroCalc.age, based on AstroCalc.conv
-	Creates a summary string too, for clarity
+	`name = string` The name of the bear
+	`foodLevel = int` How full the bear is of food
+	`energyLevel = int` How full the bear is of energy
+	`patienceLevel = int` A measurement of how little the bear has time for your garbage
+	`itemDB = array` An array of strings for items to be used in `HungryBear.give()`
+	
+function `HungryBear.setHunger()`
+	Begins the interval that does drains the bear's levels
 
-function AstroCalc.rebuild(int);
-	Replaces AstroCalc.sourceAge with a new variable, then runs AstroCalc.convert()
+function `HungryBear.didYouGetEaten()`
+	Returns true if both `HungryBear.patienceLevel` and `HungryBear.foodLevel` are 0 or negative, else false
+	
+function `HungryBear.give(string)`
+	Give an item as stated in `HungryBear.itemDB`, the bear will use this item to increase or decrease it's levels
+	

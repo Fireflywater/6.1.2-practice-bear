@@ -1,14 +1,12 @@
-# _x.y.z Practice, Words Words_
-# _Tools - Independant Project - Words Words_
+# _6.1.2 Practice, He's a big bear!_
 
-#### _Exercise in Tools, x/y/19_
-#### _Independant Project z, x/y/2019_
+#### _Exercise in Asynchrony, 10/7/19_
 
 #### By _**James Blakeley**_
 
 ## Description
 
-_wordswords_
+_So wait this is not optional?_
 
 ## Specs
 
@@ -17,7 +15,7 @@ _See SPECS.md_
 ## Setup/Installation Requirements
 
 * _Boot git bash_
-* _git clone "https://github.com/Fireflywater/webpack_Independant_Project"_
+* _git clone "https://github.com/Fireflywater/6.1.2-practice-bear"_
 * _navigate to clone folder via cd_
 * _npm install_
 * _npm run start_
